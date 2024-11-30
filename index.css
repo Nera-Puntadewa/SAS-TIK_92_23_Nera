@@ -1,0 +1,255 @@
+html{
+    background-image: url(backgrou.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img.header{
+    width: 100%;
+    padding: 0px 0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color:  #ecf9ff;
+    overflow: hidden;
+    width: 100%;
+    height: 55px;
+}
+
+li{
+    float: left;
+}
+
+@font-face {
+    font-family: 'POSTERABLE';
+    src: url('POSTERABLE.ttf');
+    src: url('POSTERABLE.ttf') format('truetype');
+}
+
+li a{
+    display: block;
+    color: #083d37;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-family: 'POSTERABLE', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+li a:hover{
+    background-color: #426b6b;
+    color: #ebf1f2;
+}
+
+li a.active{
+    background-color: #426b6b;
+    color: #ebf1f2;
+}
+
+li a, .kdropbtn{
+    display: inline-block;
+    color:  #083d37;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li .kdropdown:hover, .kdropbtn:hover{
+    background-color:#426b6b;
+    color: white;
+}
+
+li.kdropdown{
+    display: inline-block;
+}
+
+.kdropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(190, 218, 218);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgb(64, 84, 73);
+    z-index: 1;
+    font-size: 30px;
+}
+
+.kdropdown-content a{
+    color:  #021c19;;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.kdropdown-content a:hover{
+    background-color: cadetblue;
+}
+
+.kdropdown:hover .kdropdown-content{
+    display: block;
+}
+
+@font-face {
+    font-family: 'Super Squad';
+    src: url('Super\ Squad.ttf');
+    src: url('Super\ Squad.ttf') format('truetype');
+}
+
+h1{
+    font-family: 'Super Squad', 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    color: #004242;
+    background-color: #f0f6f8;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #083d37;
+}
+
+@font-face {
+    font-family: 'ELEGANT TYPEWRITER Light';
+    src: url(ELEGANT\ TYPEWRITER\ Regular.ttf);
+}
+
+p{
+    color: #032925;
+    font-family: 'ELEGANT TYPEWRITER', 'Georgia', 'Times New Roman', 'Times', 'serif';
+    background-color: #e3eff9b6;
+    font-weight: 700;
+    padding: 0px;
+}
+
+p.pe{
+    text-align: justify;
+    size: 30px 20px;
+    background-size: 50px;
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+}
+
+div.pendahuluan{
+    max-width: 1000px;
+}
+
+div.sh{
+    max-width: 1000px;
+}
+
+p.sdg{
+    text-align: justify;
+    padding: 10px;
+}
+
+p.gender{
+    size: 30px 20px;
+    background-size: 50px;
+    max-width: 500px;
+    text-align: justify;
+    padding: 5px 5px 5px 5px;
+}
+
+h1.genderh{
+    width: 500px;
+    text-align: center;
+    text-indent: 10px;
+    padding: 35px 0px 35px 0px;
+}
+
+p.penting{
+    size: 30px 20px;
+    background-size: 50px;
+    max-width: 500px;
+    text-align: justify;
+    padding: 5px 5px 5px 5px;
+}
+
+h1.pentingh{
+    width: 500px;
+    text-align: center;
+    text-indent: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+div.genderr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1.perempuanh{
+    width: 500px;
+    text-align: center;
+    text-indent: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+p.perempuan{
+    size: 30px 20px;
+    background-size: 50px;
+    max-width: 500px;
+    text-align: justify;
+    padding: 5px 5px 5px 5px;
+}
+
+h1.lakih{
+    width: 500px;
+    text-align: center;
+    text-indent: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+p.laki{
+    size: 30px 20px;
+    background-size: 50px;
+    max-width: 500px;
+    text-align: justify;
+    padding: 5px 5px 5px 5px;
+}
+
+div.lp{
+    display: table;
+    table-layout: fixed;
+}
+
+div.t-row{
+    display: table-row;
+}
+
+img.imgge{
+    padding: 10px;
+    margin: 0px;
+    max-width: 510px;
+    border: #1f625b;
+    border-style: dashed;
+    border-width: 3px;
+}
+
+div.lelah{
+    max-height: 100px;
+    overflow: hidden;
+}
+
+div.ph{
+    display: table-cell;
+    padding: 10px;
+}
+
+div.la{
+    display:table-cell;
+}
+
+div.ge{
+    display: table-cell;
+    padding-left: 0px;
+}
+
+td{
+    padding: 10px;
+}
+
+div.equity{
+    max-width: 900px;
+}

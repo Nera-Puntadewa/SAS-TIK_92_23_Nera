@@ -1,0 +1,259 @@
+html{
+    background-image: url(backgrou.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img.header{
+    width: 100%;
+    padding: 0px 0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color:  #ecf9ff;
+    overflow: hidden;
+    width: 100%;
+    height: 55ox;
+}
+
+li{
+    float: left;
+}
+
+@font-face {
+    font-family: 'POSTERABLE';
+    src: url('POSTERABLE.ttf');
+    src: url('POSTERABLE.ttf') format('truetype');
+}
+
+li a{
+    display: block;
+    color: #083d37;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-family: 'POSTERABLE', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+li a:hover{
+    background-color: #426b6b;
+    color: #ebf1f2;
+}
+
+li a.active{
+    background-color: #426b6b;
+    color: #ebf1f2;
+}
+
+li a, .kdropbtn{
+    display: inline-block;
+    color:  #083d37;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li .kdropdown:hover, .kdropbtn:hover{
+    background-color:#426b6b;
+    color: white;
+}
+
+li.kdropdown{
+    display: inline-block;
+}
+
+.kdropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(190, 218, 218);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgb(64, 84, 73);
+    z-index: 1;
+    font-size: 30px;
+}
+
+.kdropdown-content a{
+    color:  #021c19;;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.kdropdown-content a:hover{
+    background-color: cadetblue;
+}
+
+.kdropdown:hover .kdropdown-content{
+    display: block;
+}
+
+input[type='checkbox'] {
+    display: none;
+  }
+
+  .lbl-toggle {
+    display: block;
+  
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+  
+    padding: 1rem;
+  
+    color:#021c19;
+    background:#7eb4b4;
+  
+    cursor: pointer;
+  
+    border-radius: 7px;
+    transition: all 0.25s ease-out;
+  }
+
+  .wrap
+  
+  .lbl-toggle:hover {
+    background-color: #426b6b;
+    color: aliceblue;
+  }
+  .collapsible-content-dua{
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+  }
+  
+  .toggle:checked + .lbl-toggle + .collapsible-content-dua {
+    max-height: 100%;
+  }
+
+  div.ccachild{
+    width: 50%;
+    float: left;
+  }
+
+  img.asean{
+    height: fit-content;
+    padding-top: 15px;
+  }
+
+  .collapsible-content-tiga{
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+  }
+  
+  .toggle:checked + .lbl-toggle + .collapsible-content-tiga {
+    max-height: 100%;
+  }
+
+  div.ccachild{
+    width: 50%;
+    float: left;
+  }
+
+  img.asean{
+    height: fit-content;
+    padding-top: 15px;
+  }
+
+  .collapsible-content-empat{
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+  }
+  
+  .toggle:checked + .lbl-toggle + .collapsible-content-empat {
+    max-height: 100%;
+  }
+
+  div.ccachild{
+    width: 50%;
+    float: left;
+  }
+
+  img.asean{
+    height: fit-content;
+    padding-top: 15px;
+  }
+
+  .collapsible-content-lima{
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+  }
+  
+  .toggle:checked + .lbl-toggle + .collapsible-content-lima {
+    max-height: 100%;
+  }
+
+  div.ccachild{
+    width: 50%;
+    float: left;
+  }
+
+  img.asean{
+    height: fit-content;
+    padding-top: 15px;
+  }
+
+  .wrap-collapsible-dua{
+    padding-top: 15px;
+  }
+
+  .wrap-collapsible-tiga{
+    padding-top: 15px;
+  }
+
+  .wrap-collapsible-empat{
+    padding-top: 15px;
+  }
+
+  .wrap-collapsible-lima{
+    padding-top: 15px;
+  }
+
+  @font-face {
+    font-family: 'ELEGANT TYPEWRITER Light';
+    src: url(ELEGANT\ TYPEWRITER\ Light.ttf);
+}
+
+p{
+    color: #032925;
+    font-family: 'ELEGANT TYPEWRITER', 'Georgia', 'Times New Roman', 'Times', 'serif';
+    background-color: #e3eff9b6;
+    font-weight: 700;
+    padding: 0px;
+    line-height: 30px;
+    width: 50%;
+    text-align: justify;
+    padding: 10px;
+    width: 700px;
+    margin-left: 15px;
+}
+
+img.dua{
+    height: 330px;
+    padding-top: 10px ;
+}
+
+img.tiga{
+    height: 210px;
+    padding-top: 10px ;
+}
+
+img.empat{
+    height: 310px;
+    padding-top: 10px ;
+}
+
+img.lima{
+    height: 250px;
+    padding-top: 10px ;
+}
