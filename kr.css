@@ -242,4 +242,15 @@ input[type='checkbox'] {
     padding-top: 15px;
   }
 
+h2.klik{
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    color:#2e3b3e;
+    background-color: #ccdedc;
+    border-width: 3px;
+    border-style: dashed;
+    border-color:#688181;
+    width: 1000px;
+
+}
   
